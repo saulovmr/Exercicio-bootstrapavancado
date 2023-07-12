@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Bootstrap avançado</title>
+</head>
+<body>
+    <header id="header">
+        <h1>TUDO SOBRE AVIAÇÃO</h1>
+    </header>
+        <div class="container">
+            <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="https://media.istockphoto.com/id/1153535183/pt/foto/silhouetted-commercial-airplane-flying-over-beautiful-cloudscape-of-orange-colored-sunset-sky.webp?s=612x612&w=is&k=20&c=KCYjEfd4ZAfetHJI_zwAQybHCPfo7npusCOi187qZOY=">
+                        <div class="carousel-caption">
+                            <h2>Foto de um avião</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://media.istockphoto.com/id/1415179589/pt/foto/jet-flight-travel-concept-stock-photo-airplane-fly-above-amazing-blue-misty-mountain.webp?s=612x612&w=is&k=20&c=Xq7qcy-q03Q9GW4gUHUP8KIpuNHNupc9lnbfeID1Nlg=">
+                        <div class="carousel-caption">
+                            <h2>Foto de um avião</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://media.istockphoto.com/id/927191638/pt/foto/plane-is-taking-off-at-sunset.webp?s=612x612&w=is&k=20&c=7qOESkf_oS01DitcbKreEcS_laQgrwBeQRw9chZG_VI=">
+                        <div class="carousel-caption">
+                            <h2>Foto de um avião</h2>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    <div class="container" id="cards">
+        <div class="row">
+            <div class="col-4">
+                <article class="card text-bg-danger">
+                    <header class="card-header">
+                        AIRBUS
+                    </header>
+                    <img src="./images/airbus-a380-788573_1280.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Novo avião?</h4>
+                        <p class="card-text">Airbus mira lançamento de novo avião para longas distâncias</p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em:<time>12/07/2023 às 16:00 horas</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card text-bg-dark">
+                    <header class="card-header">
+                        BOING
+                    </header>
+                    <img src="https://cdn.pixabay.com/photo/2022/12/10/10/55/aircraft-7646944_1280.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">737-MAX</h4>
+                        <p class="card-text">Saiba o que aconteceu o com moderno avião após 2 acidentes</p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em:<time>12/07/2023 às 16:00 horas</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-4">
+                <article class="card text-bg-warning">
+                    <header class="card-header">
+                        EMBRAER
+                    </header>
+                    <img src="https://media.istockphoto.com/id/511221116/pt/foto/embraer-erj-145-avi%C3%A3o-a-pousar-equipamento-na-pista.webp?s=1024x1024&w=is&k=20&c=-B17-qI553g6J23gddlnicnCxJTZSbsSs6YEoN5OEac=" />
+                    <div class="card-body">
+                        <h4 class="card-title">Crescimento a vista</h4>
+                        <p class="card-text">Setor da aviação cresce pós-pandemia e beneficia construtoras</p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em:<time>12/07/2023 às 16:00 horas</time>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./Lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
